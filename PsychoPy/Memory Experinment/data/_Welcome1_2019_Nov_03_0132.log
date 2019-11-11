@@ -1,0 +1,37 @@
+5.0516 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [3000, 2000]. Using actual size
+9.4394 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+9.4411 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022EE843AE80>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022EE83D1668>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([3000, 2000]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.4413 	EXP 	window1: recordFrameIntervals = False
+9.6040 	EXP 	window1: recordFrameIntervals = True
+9.6523 	WARNING 	t of last frame was 20.51ms (=1/48)
+9.7881 	WARNING 	t of last frame was 20.50ms (=1/48)
+9.8562 	WARNING 	t of last frame was 22.31ms (=1/44)
+9.8894 	WARNING 	t of last frame was 23.84ms (=1/41)
+9.9205 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+11.3050 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.1415 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textWelcome', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.1662 	EXP 	Created textStudyWord = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textStudyWord', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Study word goes here\n', units='height', win=Window(...), wrapWidth=1)
+12.2017 	EXP 	textWelcome: autoDraw = True
+25.0001 	DATA 	Mouse: Left button down, pos=(1649,1546)
+25.1329 	DATA 	Mouse:  Left button up, pos=(1649,1546)
+25.6007 	DATA 	Keypress: space
+25.6216 	EXP 	Created sequence: random, trialTypes=1, nReps=5, seed=None
+25.6223 	EXP 	New trial (rep=0, index=0): None
+25.6437 	EXP 	textWelcome: autoDraw = False
+25.6437 	EXP 	textStudyWord: autoDraw = True
+26.9151 	DATA 	Keypress: space
+27.6312 	EXP 	New trial (rep=1, index=0): None
+27.6404 	EXP 	textStudyWord: autoDraw = False
+27.6404 	EXP 	textStudyWord: autoDraw = True
+27.6935 	DATA 	Keypress: space
+27.8748 	DATA 	Keypress: space
+28.2481 	DATA 	Keypress: return
+28.4579 	DATA 	Keypress: return
+28.6301 	DATA 	Keypress: escape
+28.9203 	EXP 	window1: mouseVisible = True

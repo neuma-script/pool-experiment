@@ -1,0 +1,22 @@
+13.0423 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [3000, 2000]. Using actual size
+17.4802 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+17.4809 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000244705ADC18>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000244704FE400>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([3000, 2000]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.4810 	EXP 	window1: recordFrameIntervals = False
+17.6453 	EXP 	window1: recordFrameIntervals = True
+17.7208 	WARNING 	t of last frame was 23.22ms (=1/43)
+17.7519 	WARNING 	t of last frame was 31.13ms (=1/32)
+17.8183 	WARNING 	t of last frame was 20.86ms (=1/47)
+17.8661 	WARNING 	t of last frame was 28.46ms (=1/35)
+17.9532 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+19.4016 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.3951 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textWelcome', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.4315 	EXP 	textWelcome: autoDraw = True
+22.9832 	DATA 	Keypress: space
+23.0161 	EXP 	textWelcome: autoDraw = False
+23.2167 	EXP 	window1: mouseVisible = True
