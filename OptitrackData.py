@@ -9,10 +9,12 @@ outputRows = 0
 for item in allLines:
 	itemList = item.split(",")
 	#x:2 ; y: 3; z: 4; 
-	if (itemList[count] != "" and -0.01 < float(itemList[count]) < 0.01):
+	if (count >= len(itemList)):
+		break
+	if (-0.01 < float(itemList[count]) < 0.01):
 		df_output.loc[outputRows] = [outputRows + 1, itemList[count + 2]]
 		outputRows += 1
-		count += 4
+		count += 7
 
-df_output.to_excel("positions.xlsx", sheet_name = 'temp', index = False)
+df_output.to_excel("BallPositions.xlsx", sheet_name = 'temp', index = False)
 print("complete")
